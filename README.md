@@ -1,4 +1,8 @@
-# egg-sequelize-ts
+# egg-sequelize-type
+
+## 重新发布说明
+
+此前仓库依赖了低版本的 `sequelize` 和 `sequelize-typescript`，并且长期没有维护。重新发布移除了直接依赖，改为推荐。
 
 ## 更改
 插件只是将 `egg-sequelize` 中的 sequelize 替换为 sequelize-typescript, 同时保证用户在 egg.js 创建的项目中使用 `egg-sequelize` 的方法尽量一致，在使用时的不同，我将下面一一阐述。 其他内容部分请查看 [egg-sequelize]('https://github.com/eggjs/egg-sequelize')。
@@ -9,18 +13,18 @@
 
 ## 安装
 ```bash
-$ npm i --save egg-sequelize-ts
-$ yarn add egg-sequelize-ts
+$ npm i --save egg-sequelize-type
+$ yarn add egg-sequelize-type
 ```
 
 ## 配置
 - Enable plugin in `config/plugin.js`
-- 在 `config/plugin.js` 文件中引入 `egg-sequelize-ts` 组件
+- 在 `config/plugin.js` 文件中引入 `egg-sequelize-type` 组件
 
 ``` js
 exports.sequelize = {
     enable: true,
-    package: 'egg-sequelize-ts'
+    package: 'egg-sequelize-type'
 }
 ```
 
