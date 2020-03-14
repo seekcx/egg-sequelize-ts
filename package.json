@@ -1,6 +1,6 @@
 {
-  "name": "egg-sequelize-ts",
-  "version": "0.2.3-0",
+  "name": "egg-sequelize-type",
+  "version": "0.0.1",
   "description": "egg Sequelize typescript plugin",
   "eggPlugin": {
     "name": "sequelize"
@@ -51,12 +51,12 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/stone-lyl/egg-sequelize-ts.git"
+    "url": "git@github.com:seekcx/egg-sequelize-type.git"
   },
   "bugs": {
-    "url": "https://github.com/stone-lyl/egg-sequelize-ts/issues"
+    "url": "https://github.com/seekcx/egg-sequelize-type"
   },
-  "homepage": "https://github.com/stone-lyl/egg-sequelize-ts/blob/master/README.md",
-  "author": "jtyjty99999, stone-lyl, ZeekoZhu",
+  "homepage": "https://github.com/seekcx/egg-sequelize-type/blob/master/README.md",
+  "author": "jtyjty99999, stone-lyl, ZeekoZhu, Abel",
   "license": "MIT"
 }
